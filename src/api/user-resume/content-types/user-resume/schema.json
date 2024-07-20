@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_resumes",
+  "info": {
+    "singularName": "user-resume",
+    "pluralName": "user-resumes",
+    "displayName": "User_Resume",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "resume_id": {
+      "type": "string",
+      "required": true
+    },
+    "user_Name": {
+      "type": "string",
+      "required": true
+    },
+    "user_Email": {
+      "type": "email",
+      "required": true
+    },
+    "firstName": {
+      "type": "string",
+      "required": false
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "language": {
+      "type": "string"
+    },
+    "framework": {
+      "type": "string"
+    },
+    "db": {
+      "type": "string"
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "experience.experience"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.projects"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "education.education"
+    }
+  }
+}

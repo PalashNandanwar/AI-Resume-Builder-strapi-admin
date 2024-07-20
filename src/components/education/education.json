@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_education_educations",
+  "info": {
+    "displayName": "Education",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "schoolName": {
+      "type": "string"
+    },
+    "degree": {
+      "type": "string"
+    },
+    "endD": {
+      "type": "string"
+    },
+    "major": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "percentage": {
+      "type": "string"
+    }
+  }
+}
